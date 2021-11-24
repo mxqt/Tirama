@@ -22,7 +22,7 @@ td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
 
 article, aside, details, figcaption, figure, footer, header, hgroup,
 menu, nav, section {
-        display: block
+        display: block;
     }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     font-weight : normal;
     -webkit-font-smoothing: antialiased;
-	  -moz-osx-font-smoothing: grayscale;
+      -moz-osx-font-smoothing: grayscale;
         }
 
 
@@ -142,30 +142,6 @@ h2 {
   width: 43.66%;
 }
 
-.col-3 {
-  margin-left: 20.66%;
-  width: 58.9%;
-}
-
-.col-4 {
-
-  margin-left: 40.66%;
-  width: 55.9%;
-
-}
-
-.col-5 {
-
-  margin-left: 8.66%;
-  width: 55.9%;
-
-}
-
-.col-6 {
-
-  width: 50%;
-
-}
 
 @keyframes load {
   0%   {opacity:0;}
@@ -190,13 +166,17 @@ h2{
   line-height: 30px;
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5 {
-    width: 100%;
+.col-2 {
+    width: 90%;
     margin-left: 0;
 }
 
 .footer{
   grid-template-columns: 100%;
+}
+
+.background {
+  height: 50vh;
 }
 
 }
